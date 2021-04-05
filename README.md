@@ -18,6 +18,23 @@ A lightweight Jekyll theme created for Fisher College Spring 2021 Frontend Web D
 - Review the basics of Jekyll site structure
 - Edit the heading to resolve Favicon error
 
+### Week One: March 22-26
+- Study Jekyll site structure
+- Implement an outline of a Jekyll theme:
+    - Create _config.yml
+    - Create outlines for head, header, and footer
+    - Modify default.html to include the relevant components
+    - Create SCSS masterfile
+    - Create 404 page
+- Make a list of functionalities
+    - About page
+    - Post preview on the front page
+    - Google Analytics
+    - Social Media links
+    - View posts by tag
+    - Disqus comments
+    - Optional: Python stock API compatibility
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
