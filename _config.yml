@@ -1,0 +1,48 @@
+# General Site Settings
+title: Dartboard | A Theme to Throw at the Market
+description: A Jekyll theme designed for Web Design final project
+theme: he-fp-theme/
+url: # The base hostname of your site
+baseurl: # The subpath of this particular site
+
+# Optional Settings
+discus_identifier: jhelium
+ga_analytics: UA-102197207-1
+social:
+    github: JasonBourbaki
+    linkedin: jiaxin-h-025498123/
+    email: mailto:jas0nhe524@gmail.com
+
+# Build Settings
+markdown: kramdown
+permalink: :slug
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+    
+include: 
+  - _pages    
+  
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+
+paginate: 10
+paginate_path: "/page/:num"
+    
+sass:
+  sass_dir: _sass
+  style: compressed
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
