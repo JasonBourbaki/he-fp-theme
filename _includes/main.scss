@@ -1,1 +1,26 @@
- 
+// Settings
+@import 'settings/global';
+@import 'settings/variables';
+@import 'settings/fonts';
+@import 'settings/colors';
+@import 'settings/icons';
+
+// Utilities
+@import 'utilities/normalize';
+@import 'utilities/mixins';
+@import 'utilities/embed';
+@import 'utilities/scroll';
+
+//Base
+@import 'base';
+
+// Modules
+@import 'modules/grid';
+@import 'modules/header';
+@import 'modules/footer';
+
+// Layouts
+@import 'layouts/about';
+@import 'layouts/home';
+@import 'layouts/page';
+@import 'layouts/post';

@@ -1,0 +1,15 @@
+<ul class='post-menu'>
+    <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link">Home</a></li>
+    {% for page in site.pages %}
+        {% unless page.name == '404.html' %}
+            {% if page.title %}
+                <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">{{ page.title }}</a></li>
+            {% endif %}
+        {% endunless %}
+    {% endfor %}
+    {% if site.about == true %}
+      <li class="menu-item">
+        <a href="./about.md" title="About">About</a>
+      </li>
+    {% endif %}
+</ul>

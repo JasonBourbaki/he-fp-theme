@@ -6,14 +6,21 @@ url: # The base hostname of your site
 baseurl: # The subpath of this particular site
 
 # Optional Settings
-discus_identifier: jhelium
-ga_analytics: UA-102197207-1
+about: true #Enable/disable the "about" section of the website
+header_scroll: false #Enable/disable header to appear when scrolling
+ga: false #Enable/disable Google Analytics
+discus_identifier: #Your short name for Disqus
+google_analytics: #Your Google Analytics identifier, format UA-XXXXXXXX-X
 social:
-    github: JasonBourbaki
-    linkedin: jiaxin-h-025498123/
-    email: mailto:jas0nhe524@gmail.com
+    twitter: #Twitter handle
+    facebook: #Facebook handle
+    instagram: #Instagram user name
+    github: #Github user name
+    linkedin: #Linkdein profile ID
+    reddit: #Reddit user ID
+    email: #Email address
 
-# Build Settings
+# Build Settings, change at your own risk
 markdown: kramdown
 permalink: :slug
 plugins:
