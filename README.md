@@ -18,7 +18,7 @@ A lightweight Jekyll theme created for Fisher College Spring 2021 Frontend Web D
 - Review the basics of Jekyll site structure
 - Edit the heading to resolve Favicon error
 
-### Week One: March 22-26
+### Week Two: March 29-April 2
 - Study Jekyll site structure
 - Implement an outline of a Jekyll theme:
     - Create _config.yml
@@ -34,6 +34,20 @@ A lightweight Jekyll theme created for Fisher College Spring 2021 Frontend Web D
     - View posts by tag
     - Disqus comments
     - Optional: Python stock API compatibility
+    
+### Week Three: April 5-9
+- Refine head.html
+- Create google analytics plugin
+- Restructure the header by splitting the menu and the social media links into external sheets
+    - Create post-menu with About, Search, and an iterative list of pages
+    - Create social-menu with an expanded list of social media links
+    - Wrap each section of the header in div classes, with sudo-coded styling
+- Modify the config to add google analytics, scroll toggle, and more social media options
+- Study Jekyll scss structure
+- Implement an outline of Jekyll stylesheets
+    - Create stylesheets for each functionality, separated by category
+    - Edit main.scss to import the newly created stylesheets
+    - Find font, color, and icon set for the theme
 
 ## Installation
 
